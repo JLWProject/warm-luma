@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.3]
+
+- Moved to dedicated public repository
+
 ## [0.1.2]
 
 - Fixed marketplace preview GIF not loading (absolute image URLs)
