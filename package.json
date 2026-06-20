@@ -1,0 +1,41 @@
+{
+  "name": "warm-luma",
+  "displayName": "Warm Luma",
+  "description": "A dark theme with a warm amber palette and bright, high-contrast token colours.",
+  "version": "0.1.2",
+  "publisher": "jordanwalker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlwproject/warm-luma"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "warm",
+    "amber",
+    "terraform",
+    "hcl",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1C1209",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Warm Luma",
+        "uiTheme": "vs-dark",
+        "path": "./themes/warm-luma.json"
+      }
+    ]
+  }
+}
