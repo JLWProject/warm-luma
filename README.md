@@ -13,6 +13,10 @@ A dark VS Code theme with a warm amber/orange palette and bright, high-contrast 
 - Functions, classes, and tags in sky blue (`#7EC8E3`)
 - Control keywords and accents in bright amber (`#FFD050`)
 
+## Terminal
+
+ANSI red/green/yellow/white stay in the warm palette, but blue, cyan, and magenta use distinct hues (sky blue, teal, rose) so terminal output, `ls` colours, and the terminal tab colour picker stay legible instead of collapsing into a single shade of orange.
+
 ## Terraform / HCL
 
 | Token | Example | Colour |

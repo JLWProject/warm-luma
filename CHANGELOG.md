@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.4]
+
+- Fixed terminal ANSI colours that were nearly indistinguishable from each other (all warm orange/amber tones), which made the terminal tab color picker and colourized `ls`/`git` output unusable:
+  - `terminal.ansiBlue` → sky blue `#7EC8E3` (reused from the syntax palette)
+  - `terminal.ansiCyan` → teal `#3FB8AC`
+  - `terminal.ansiMagenta` → rose `#D9739D`
+  - `terminal.ansiBrightBlack` → muted grey-brown `#6B5D4E` (was identical to the old, broken `ansiBlue`)
+  - `terminal.ansiBrightRed` → `#FF5030` (previously identical to `ansiRed`, so bold red text wasn't distinguishable)
+
 ## [0.1.3]
 
 - Moved to dedicated public repository
